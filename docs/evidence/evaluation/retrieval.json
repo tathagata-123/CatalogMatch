@@ -1,0 +1,193 @@
+{
+  "query_records": 217,
+  "target_records": 218,
+  "cartesian_pairs": 47306,
+  "recall_target": 0.98,
+  "index_build_seconds": 0.0024191669654101133,
+  "indexes": {
+    "word": {
+      "records": 218,
+      "vocabulary": 911,
+      "term_record_associations": 1853
+    },
+    "char": {
+      "records": 218,
+      "vocabulary": 3110,
+      "term_record_associations": 10058
+    }
+  },
+  "comparison": [
+    {
+      "name": "word10",
+      "word_k": 10,
+      "gram_k": null,
+      "gold_hits": 217,
+      "gold_pairs": 220,
+      "candidate_recall": 0.9863636363636363,
+      "candidate_pairs": 2078,
+      "reduction_ratio": 0.9560732253836722,
+      "average_candidates": 9.576036866359447,
+      "maximum_candidates": 10,
+      "retrieval_seconds": 0.003082047216594219,
+      "average_latency_ms": 0.014202982564950319,
+      "maximum_latency_ms": 0.04120916128158569,
+      "postings_visited": 10176,
+      "distinct_candidates_encountered": 7408
+    },
+    {
+      "name": "word25",
+      "word_k": 25,
+      "gram_k": null,
+      "gold_hits": 218,
+      "gold_pairs": 220,
+      "candidate_recall": 0.990909090909091,
+      "candidate_pairs": 4640,
+      "reduction_ratio": 0.9019151904620979,
+      "average_candidates": 21.382488479262673,
+      "maximum_candidates": 25,
+      "retrieval_seconds": 0.004263003123924136,
+      "average_latency_ms": 0.01964517568628634,
+      "maximum_latency_ms": 0.03841589204967022,
+      "postings_visited": 10176,
+      "distinct_candidates_encountered": 7408
+    },
+    {
+      "name": "word50",
+      "word_k": 50,
+      "gram_k": null,
+      "gold_hits": 219,
+      "gold_pairs": 220,
+      "candidate_recall": 0.9954545454545455,
+      "candidate_pairs": 6909,
+      "reduction_ratio": 0.8539508730393608,
+      "average_candidates": 31.838709677419356,
+      "maximum_candidates": 50,
+      "retrieval_seconds": 0.00500650517642498,
+      "average_latency_ms": 0.023071452425921568,
+      "maximum_latency_ms": 0.04820898175239563,
+      "postings_visited": 10176,
+      "distinct_candidates_encountered": 7408
+    },
+    {
+      "name": "char10",
+      "word_k": null,
+      "gram_k": 10,
+      "gold_hits": 220,
+      "gold_pairs": 220,
+      "candidate_recall": 1.0,
+      "candidate_pairs": 2170,
+      "reduction_ratio": 0.9541284403669725,
+      "average_candidates": 10.0,
+      "maximum_candidates": 10,
+      "retrieval_seconds": 0.010747841792181134,
+      "average_latency_ms": 0.04952922484876099,
+      "maximum_latency_ms": 0.12970808893442154,
+      "postings_visited": 108251,
+      "distinct_candidates_encountered": 32061
+    },
+    {
+      "name": "char25",
+      "word_k": null,
+      "gram_k": 25,
+      "gold_hits": 220,
+      "gold_pairs": 220,
+      "candidate_recall": 1.0,
+      "candidate_pairs": 5425,
+      "reduction_ratio": 0.8853211009174312,
+      "average_candidates": 25.0,
+      "maximum_candidates": 25,
+      "retrieval_seconds": 0.012900247937068343,
+      "average_latency_ms": 0.05944814717543015,
+      "maximum_latency_ms": 0.11574989184737206,
+      "postings_visited": 108251,
+      "distinct_candidates_encountered": 32061
+    },
+    {
+      "name": "union10+10",
+      "word_k": 10,
+      "gram_k": 10,
+      "gold_hits": 220,
+      "gold_pairs": 220,
+      "candidate_recall": 1.0,
+      "candidate_pairs": 2718,
+      "reduction_ratio": 0.9425442861370651,
+      "average_candidates": 12.525345622119815,
+      "maximum_candidates": 18,
+      "retrieval_seconds": 0.013956753071397543,
+      "average_latency_ms": 0.06431683443040342,
+      "maximum_latency_ms": 0.11779181659221649,
+      "postings_visited": 118427,
+      "distinct_candidates_encountered": 39469
+    },
+    {
+      "name": "union25+25",
+      "word_k": 25,
+      "gram_k": 25,
+      "gold_hits": 220,
+      "gold_pairs": 220,
+      "candidate_recall": 1.0,
+      "candidate_pairs": 6693,
+      "reduction_ratio": 0.8585168900350907,
+      "average_candidates": 30.84331797235023,
+      "maximum_candidates": 43,
+      "retrieval_seconds": 0.017915327800437808,
+      "average_latency_ms": 0.08255911428773183,
+      "maximum_latency_ms": 0.1521669328212738,
+      "postings_visited": 118427,
+      "distinct_candidates_encountered": 39469
+    }
+  ],
+  "selected_config": {
+    "name": "word10",
+    "word_k": 10,
+    "gram_k": null
+  },
+  "recall_target_met": true,
+  "selection_rule": "fewest pairs at recall >= 0.98; otherwise highest recall, then fewest pairs; fixed order breaks ties",
+  "split": "validation",
+  "query_source": "abt",
+  "target_source": "buy",
+  "raw_sha256": {
+    "Abt.csv": "ed6dbe5ac508e2e27ec7f78948875d4f754b6753674c65ccda3bf903ddaa13ea",
+    "Buy.csv": "37d78c33f85b27e92be1d8ee1b863ba7107dfe369c6ca1dc7961c89b460dd47a",
+    "abt_buy_perfectMapping.csv": "20af553a0846712de11703e2b9569988468d5c639650348dd5a059f4bb861b6a"
+  },
+  "manifest_sha256": "38807dded7aa6c47f4fea09ac0c159538a6ed3d6f205d4edc16be44df8e7fa2a",
+  "split_version": "component60_20_20_python_random42_v1",
+  "split_seed": 42,
+  "normalizer_version": "nfkc_casefold_ascii_title_trigrams_v1",
+  "retrieval_version": "binary_tfidf_postings_heap_v1",
+  "prepared_sha256": {
+    "records.jsonl": "57eabaed0c60a54d64c43bac9df952f8707883255550f63772b16cdf60d04fba",
+    "split_memberships.json": "146673f66a642ec2092a942947f5ba36bd839f09a96afaf699da5c5d63dffa56",
+    "audit.json": "5ee447dfa8315b78bdfa11c9624586f841927c2b2f19b3076c60cc4e95824e63"
+  },
+  "parameters": {
+    "term_frequency": "binary",
+    "idf": "1 + ln((N + 1) / (df + 1))",
+    "unknown_query_df": 0,
+    "query_term_order": "sorted distinct terms",
+    "eligibility": "positive term overlap",
+    "tie_break": "smaller target position",
+    "word_terms": "normalized title words",
+    "char_terms": "normalized title trigrams",
+    "union": "independent top-k lists; deduplicate; position order; no second truncation",
+    "configuration_order": [
+      "word10",
+      "word25",
+      "word50",
+      "char10",
+      "char25",
+      "union10+10",
+      "union25+25"
+    ]
+  },
+  "measurement": {
+    "timer": "perf_counter",
+    "passes_per_configuration": 1,
+    "latency_scope": "retrieval calls including counters, heap and union; excludes index build and evaluation",
+    "distinct_candidates_scope": "sum per query and channel, before top-k; repeats across channels count twice",
+    "python": "3.12.15",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  }
+}

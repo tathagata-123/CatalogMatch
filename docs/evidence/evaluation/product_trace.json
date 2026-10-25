@@ -1,0 +1,70 @@
+{
+  "split": "train",
+  "target_catalog_size": 655,
+  "left": {
+    "source": "abt",
+    "raw_id": "10102",
+    "name": "Omnimount Wall Speaker Mount - 20WLWH",
+    "description": "Omnimount Wall Speaker Mount - 20WLWH/ Stainless Steel Shafts And All Necessary Hardware Included/ Supports Speakers Up To 20 lbs./ Sold as each / White Finish (Photo Showing Black)",
+    "manufacturer": "",
+    "raw_price": "$40.00"
+  },
+  "right": {
+    "source": "buy",
+    "raw_id": "90106210",
+    "name": "OmniMount Stainless Steel Speaker Mount - 20.0 WALL-W",
+    "description": "Stainless Steel - 20 lb",
+    "manufacturer": "OMNIMOUNT SYSTEMS, INC",
+    "raw_price": ""
+  },
+  "left_normalized_title": "omnimount wall speaker mount 20wlwh",
+  "right_normalized_title": "omnimount stainless steel speaker mount 20 0 wall w",
+  "left_word_tokens": [
+    "20wlwh",
+    "mount",
+    "omnimount",
+    "speaker",
+    "wall"
+  ],
+  "right_word_tokens": [
+    "0",
+    "20",
+    "mount",
+    "omnimount",
+    "speaker",
+    "stainless",
+    "steel",
+    "w",
+    "wall"
+  ],
+  "left_model_tokens": [
+    "20wlwh"
+  ],
+  "right_model_tokens": [],
+  "retrieval_config": {
+    "name": "word10",
+    "word_k": 10,
+    "gram_k": null
+  },
+  "retrieval_rank": 1,
+  "word_retrieval_score": 0.5330460029704667,
+  "candidate_count": 10,
+  "features": {
+    "title_token_jaccard": 0.4,
+    "title_token_containment": 0.8,
+    "title_trigram_jaccard": 0.4897959183673469,
+    "title_edit_similarity": 0.6274509803921569,
+    "model_token_jaccard": 0.0,
+    "model_token_conflict": 0.0,
+    "model_tokens_both_present": 0.0,
+    "description_token_jaccard": 0.10714285714285714,
+    "descriptions_both_present": 1.0,
+    "relative_price_difference": 0.0,
+    "prices_both_present": 0.0,
+    "numeric_token_jaccard": 0.0
+  },
+  "forest_score": 0.6510464234575638,
+  "threshold": 0.2347583241835786,
+  "accepted": true,
+  "gold_label_for_analysis_only": 1
+}

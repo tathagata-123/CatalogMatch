@@ -1,0 +1,26 @@
+{
+  "purpose": "post-evaluation description only; no selection or feature changes",
+  "examples": [
+    {
+      "abt_id": "27729",
+      "buy_id": "203379250",
+      "word_rank_for_error_analysis_only": 11,
+      "selected_k": 10,
+      "category": "retrieval_truncation",
+      "shared_words": [
+        "lg",
+        "wm0642hw"
+      ]
+    },
+    {
+      "abt_id": "37805",
+      "buy_id": "209085175",
+      "word_rank_for_error_analysis_only": 27,
+      "selected_k": 10,
+      "category": "retrieval_truncation",
+      "shared_words": [
+        "samsung"
+      ]
+    }
+  ]
+}

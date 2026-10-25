@@ -1,0 +1,45 @@
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+data/raw/
+data/processed/
+runs/
+.DS_Store
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+models/
+*.pkl
+*.joblib
+*.npz
+
+# Local editor state and temporary files.
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+.coverage.*
+.mypy_cache/
+
+# Local credentials and development-tool configuration.
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.claude/
+.cursor/
+
+# Unmodified historical evidence copies; public reports use descriptive paths.
+/docs/evidence/m5/
+/docs/evidence/m6/

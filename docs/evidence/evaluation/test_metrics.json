@@ -1,0 +1,258 @@
+{
+  "split": "test",
+  "retuned": false,
+  "refit": false,
+  "frozen_sha256": "bf8f52024083a736ba5dcf790eb140d6bd72bffdb089a221aca45105246c3d6f",
+  "evaluated_at": "2026-10-24T21:23:24.296621+00:00",
+  "provenance": {
+    "raw_sha256": {
+      "Abt.csv": "ed6dbe5ac508e2e27ec7f78948875d4f754b6753674c65ccda3bf903ddaa13ea",
+      "Buy.csv": "37d78c33f85b27e92be1d8ee1b863ba7107dfe369c6ca1dc7961c89b460dd47a",
+      "abt_buy_perfectMapping.csv": "20af553a0846712de11703e2b9569988468d5c639650348dd5a059f4bb861b6a"
+    },
+    "manifest_sha256": "38807dded7aa6c47f4fea09ac0c159538a6ed3d6f205d4edc16be44df8e7fa2a",
+    "prepared_sha256": {
+      "records.jsonl": "57eabaed0c60a54d64c43bac9df952f8707883255550f63772b16cdf60d04fba",
+      "split_memberships.json": "146673f66a642ec2092a942947f5ba36bd839f09a96afaf699da5c5d63dffa56",
+      "audit.json": "5ee447dfa8315b78bdfa11c9624586f841927c2b2f19b3076c60cc4e95824e63"
+    },
+    "selected_sha256": "10c1697d782455cb49b04612a1af1305fcd3c17747df398c5f79b0e772e3bccb",
+    "split_version": "component60_20_20_python_random42_v1",
+    "split_seed": 42
+  },
+  "partition": {
+    "split": "test",
+    "left_records": 216,
+    "right_records": 219,
+    "candidate_pairs": 2053,
+    "positive_candidates": 217,
+    "negative_candidates": 1836,
+    "gold_pairs": 219,
+    "retrieval_missed_gold": 2,
+    "prevalence": 0.10569897710667316,
+    "feature_names": [
+      "title_token_jaccard",
+      "title_token_containment",
+      "title_trigram_jaccard",
+      "title_edit_similarity",
+      "model_token_jaccard",
+      "model_token_conflict",
+      "model_tokens_both_present",
+      "description_token_jaccard",
+      "descriptions_both_present",
+      "relative_price_difference",
+      "prices_both_present",
+      "numeric_token_jaccard"
+    ],
+    "shape": [
+      2053,
+      12
+    ],
+    "dtype": "float64",
+    "X_sha256": "99fff9d765bed46ba67e8c4c7740d77473cb38942296d25f5270cbb496fd7d4a",
+    "y_sha256": "e09048cd5dd82f701bfe56c1dd32c6cd1160b56f8a6ba73dc607b64fd09cada2",
+    "pairs_sha256": "275fec5380dc9f4dc16f07ece94d3b54693523831f54c3fbf92f264d7cfe3313",
+    "feature_nbytes": 197088,
+    "candidate_nbytes": 32848,
+    "label_nbytes": 16424,
+    "preparation_seconds": 0.05986479204148054,
+    "index_build_seconds": 0.002345584100112319,
+    "retrieval_seconds": 0.007157625164836645,
+    "cache_used": false,
+    "cache_reason": "[Errno 2] No such file or directory: 'runs/main/features/test.json'",
+    "feature_seconds": 0.9197874169331044,
+    "cache_seconds": 0.024859792087227106
+  },
+  "models": {
+    "lexical": {
+      "hyperparameters": {},
+      "threshold": 0.3484848484848485,
+      "metrics": {
+        "true_positives": 157,
+        "false_positives": 74,
+        "false_negatives": 62,
+        "precision": 0.6796536796536796,
+        "recall": 0.7168949771689498,
+        "f1": 0.6977777777777778,
+        "gold_pairs": 219,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9908675799086758,
+        "conditional_classifier_recall": 0.7235023041474654,
+        "retrieval_missed_gold": 2,
+        "classifier_rejected_gold": 60,
+        "candidate_pairs": 2053,
+        "cartesian_pairs": 47304,
+        "candidate_reduction_ratio": 0.9565998647048876,
+        "candidate_only_average_precision": 0.7129050678583846
+      },
+      "training_seconds": 0.0,
+      "inference": {
+        "samples_seconds": [
+          3.437511622905731e-05,
+          3.42091079801321e-05,
+          3.3708056434988976e-05,
+          3.241701051592827e-05,
+          3.237486816942692e-05
+        ],
+        "median_seconds": 3.3708056434988976e-05,
+        "p95_seconds": 3.434191457927227e-05,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2053,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    "custom_cart": {
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "max_features": null
+      },
+      "threshold": 0.43478260869565216,
+      "metrics": {
+        "true_positives": 172,
+        "false_positives": 15,
+        "false_negatives": 47,
+        "precision": 0.9197860962566845,
+        "recall": 0.7853881278538812,
+        "f1": 0.8472906403940886,
+        "gold_pairs": 219,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9908675799086758,
+        "conditional_classifier_recall": 0.7926267281105991,
+        "retrieval_missed_gold": 2,
+        "classifier_rejected_gold": 45,
+        "candidate_pairs": 2053,
+        "cartesian_pairs": 47304,
+        "candidate_reduction_ratio": 0.9565998647048876,
+        "candidate_only_average_precision": 0.8525066371896395
+      },
+      "training_seconds": 0.0440692079719156,
+      "inference": {
+        "samples_seconds": [
+          0.0024949160870164633,
+          0.0024448749609291553,
+          0.002448208862915635,
+          0.0024463750887662172,
+          0.0024197502061724663
+        ],
+        "median_seconds": 0.0024463750887662172,
+        "p95_seconds": 0.002485574642196298,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2053,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    "custom_forest": {
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true
+      },
+      "threshold": 0.2347583241835786,
+      "metrics": {
+        "true_positives": 194,
+        "false_positives": 29,
+        "false_negatives": 25,
+        "precision": 0.8699551569506726,
+        "recall": 0.8858447488584474,
+        "f1": 0.8778280542986425,
+        "gold_pairs": 219,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9908675799086758,
+        "conditional_classifier_recall": 0.8940092165898618,
+        "retrieval_missed_gold": 2,
+        "classifier_rejected_gold": 23,
+        "candidate_pairs": 2053,
+        "cartesian_pairs": 47304,
+        "candidate_reduction_ratio": 0.9565998647048876,
+        "candidate_only_average_precision": 0.9389957264496221
+      },
+      "training_seconds": 0.5611801249906421,
+      "inference": {
+        "samples_seconds": [
+          0.08360045799054205,
+          0.08454295899719,
+          0.08453462505713105,
+          0.08414941607043147,
+          0.08399299997836351
+        ],
+        "median_seconds": 0.08414941607043147,
+        "p95_seconds": 0.0845412922091782,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2053,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    "sklearn_forest": {
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true,
+        "criterion": "gini",
+        "n_jobs": 1
+      },
+      "threshold": 0.2294045757232059,
+      "metrics": {
+        "true_positives": 193,
+        "false_positives": 28,
+        "false_negatives": 26,
+        "precision": 0.8733031674208145,
+        "recall": 0.8812785388127854,
+        "f1": 0.8772727272727273,
+        "gold_pairs": 219,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9908675799086758,
+        "conditional_classifier_recall": 0.8894009216589862,
+        "retrieval_missed_gold": 2,
+        "classifier_rejected_gold": 24,
+        "candidate_pairs": 2053,
+        "cartesian_pairs": 47304,
+        "candidate_reduction_ratio": 0.9565998647048876,
+        "candidate_only_average_precision": 0.9392735526786976
+      },
+      "training_seconds": 0.14051049994304776,
+      "inference": {
+        "samples_seconds": [
+          0.00513695809058845,
+          0.004648542031645775,
+          0.00426087505184114,
+          0.004131458001211286,
+          0.004073417047038674
+        ],
+        "median_seconds": 0.00426087505184114,
+        "p95_seconds": 0.0050392748787999155,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2053,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    }
+  },
+  "verification_seconds": 0.06587712489999831,
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "os": "macOS-26.5.2-arm64-arm-64bit",
+    "cpu": "arm",
+    "logical_cpu_count": 10,
+    "processes": 1
+  }
+}

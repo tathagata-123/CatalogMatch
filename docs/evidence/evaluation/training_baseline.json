@@ -1,0 +1,20 @@
+{
+  "split": "train",
+  "threshold": 0.5,
+  "threshold_tuned": false,
+  "comparisons": 424440,
+  "predicted_pairs": 535,
+  "gold_pairs": 658,
+  "true_positives": 289,
+  "false_positives": 246,
+  "false_negatives": 369,
+  "precision": 0.5401869158878505,
+  "recall": 0.439209726443769,
+  "raw_sha256": {
+    "Abt.csv": "ed6dbe5ac508e2e27ec7f78948875d4f754b6753674c65ccda3bf903ddaa13ea",
+    "Buy.csv": "37d78c33f85b27e92be1d8ee1b863ba7107dfe369c6ca1dc7961c89b460dd47a",
+    "abt_buy_perfectMapping.csv": "20af553a0846712de11703e2b9569988468d5c639650348dd5a059f4bb861b6a"
+  },
+  "manifest_sha256": "38807dded7aa6c47f4fea09ac0c159538a6ed3d6f205d4edc16be44df8e7fa2a",
+  "matches_sha256": "109d6264182c04b3239cd46d936587a6fc84ea5aaaa3d90cb29942aade34f287"
+}

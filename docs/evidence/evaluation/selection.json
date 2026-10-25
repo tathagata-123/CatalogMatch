@@ -1,0 +1,1015 @@
+{
+  "tried": [
+    {
+      "training_seconds": 0.4393120410386473,
+      "validation": {
+        "true_positives": 196,
+        "false_positives": 25,
+        "false_negatives": 24,
+        "precision": 0.8868778280542986,
+        "recall": 0.8909090909090909,
+        "f1": 0.8888888888888888,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.9032258064516129,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 21,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9546937774138871
+      },
+      "model_type": "custom_forest",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true
+      },
+      "threshold": 0.17596534051149054,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.07364408299326897,
+          0.07380133308470249,
+          0.07308787503279746,
+          0.0725389588624239,
+          0.0737014589831233
+        ],
+        "median_seconds": 0.07364408299326897,
+        "p95_seconds": 0.07378135826438666,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.3880344999488443,
+      "validation": {
+        "true_positives": 189,
+        "false_positives": 18,
+        "false_negatives": 31,
+        "precision": 0.9130434782608695,
+        "recall": 0.8590909090909091,
+        "f1": 0.8852459016393442,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8709677419354839,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 28,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9452199726571722
+      },
+      "model_type": "custom_forest",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true
+      },
+      "threshold": 0.21981612973476633,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.07579475012607872,
+          0.07710020802915096,
+          0.07961612497456372,
+          0.0759900831617415,
+          0.07620458398014307
+        ],
+        "median_seconds": 0.07620458398014307,
+        "p95_seconds": 0.07911294158548117,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.6600593330804259,
+      "validation": {
+        "true_positives": 187,
+        "false_positives": 16,
+        "false_negatives": 33,
+        "precision": 0.9211822660098522,
+        "recall": 0.85,
+        "f1": 0.8841607565011821,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8617511520737328,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 30,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9549349850639162
+      },
+      "model_type": "custom_forest",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true
+      },
+      "threshold": 0.3179841871600915,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.09045579098165035,
+          0.09394254186190665,
+          0.08940116595476866,
+          0.08985424996353686,
+          0.0937485417816788
+        ],
+        "median_seconds": 0.09045579098165035,
+        "p95_seconds": 0.09390374184586107,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.5611801249906421,
+      "validation": {
+        "true_positives": 191,
+        "false_positives": 18,
+        "false_negatives": 29,
+        "precision": 0.9138755980861244,
+        "recall": 0.8681818181818182,
+        "f1": 0.8904428904428905,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.880184331797235,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 26,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9478790904367068
+      },
+      "model_type": "custom_forest",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true
+      },
+      "threshold": 0.2347583241835786,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.08577445801347494,
+          0.09072266705334187,
+          0.08538400009274483,
+          0.0865407909732312,
+          0.08536324999295175
+        ],
+        "median_seconds": 0.08577445801347494,
+        "p95_seconds": 0.08988629183731973,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "custom_forest.json"
+    },
+    {
+      "training_seconds": 0.0440692079719156,
+      "validation": {
+        "true_positives": 175,
+        "false_positives": 6,
+        "false_negatives": 45,
+        "precision": 0.9668508287292817,
+        "recall": 0.7954545454545454,
+        "f1": 0.8728179551122195,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8064516129032258,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 42,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9031797077889087
+      },
+      "model_type": "custom_cart",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "max_features": null
+      },
+      "threshold": 0.43478260869565216,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.002752874977886677,
+          0.002937791869044304,
+          0.002503708004951477,
+          0.0026111670304089785,
+          0.0029963331762701273
+        ],
+        "median_seconds": 0.002752874977886677,
+        "p95_seconds": 0.0029846249148249627,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "custom_cart.json"
+    },
+    {
+      "training_seconds": 0.04238075017929077,
+      "validation": {
+        "true_positives": 188,
+        "false_positives": 25,
+        "false_negatives": 32,
+        "precision": 0.8826291079812206,
+        "recall": 0.8545454545454545,
+        "f1": 0.8683602771362586,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8663594470046083,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 29,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.907932290909703
+      },
+      "model_type": "custom_cart",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "max_features": null
+      },
+      "threshold": 0.16666666666666666,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.0023896668571978807,
+          0.002424749778583646,
+          0.0024047920014709234,
+          0.002372582908719778,
+          0.0024937500711530447
+        ],
+        "median_seconds": 0.0024047920014709234,
+        "p95_seconds": 0.0024799500126391648,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.06289658392779529,
+      "validation": {
+        "true_positives": 183,
+        "false_positives": 19,
+        "false_negatives": 37,
+        "precision": 0.905940594059406,
+        "recall": 0.8318181818181818,
+        "f1": 0.8672985781990521,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8433179723502304,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 34,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.851184561232882
+      },
+      "model_type": "custom_cart",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "max_features": null
+      },
+      "threshold": 0.36363636363636365,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.00263404194265604,
+          0.0026532921474426985,
+          0.0026338750030845404,
+          0.0026199580170214176,
+          0.0026139160618185997
+        ],
+        "median_seconds": 0.0026338750030845404,
+        "p95_seconds": 0.0026494421064853666,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.054220667108893394,
+      "validation": {
+        "true_positives": 195,
+        "false_positives": 43,
+        "false_negatives": 25,
+        "precision": 0.819327731092437,
+        "recall": 0.8863636363636364,
+        "f1": 0.851528384279476,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8986175115207373,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 22,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.8840063264391781
+      },
+      "model_type": "custom_cart",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "max_features": null
+      },
+      "threshold": 0.14285714285714285,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.0026514590717852116,
+          0.00264224992133677,
+          0.0026104168500751257,
+          0.0026042498648166656,
+          0.002691458910703659
+        ],
+        "median_seconds": 0.00264224992133677,
+        "p95_seconds": 0.0026834589429199696,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.12476675002835691,
+      "validation": {
+        "true_positives": 196,
+        "false_positives": 29,
+        "false_negatives": 24,
+        "precision": 0.8711111111111111,
+        "recall": 0.8909090909090909,
+        "f1": 0.8808988764044944,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.9032258064516129,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 21,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9502066179146021
+      },
+      "model_type": "sklearn_forest",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true,
+        "criterion": "gini",
+        "n_jobs": 1
+      },
+      "threshold": 0.1623311625080973,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.0032855828758329153,
+          0.003295874921604991,
+          0.003191791009157896,
+          0.0031637500505894423,
+          0.003161208936944604
+        ],
+        "median_seconds": 0.003191791009157896,
+        "p95_seconds": 0.0032938165124505757,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.12343729194253683,
+      "validation": {
+        "true_positives": 184,
+        "false_positives": 16,
+        "false_negatives": 36,
+        "precision": 0.92,
+        "recall": 0.8363636363636363,
+        "f1": 0.8761904761904762,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.847926267281106,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 33,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9467457603579105
+      },
+      "model_type": "sklearn_forest",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true,
+        "criterion": "gini",
+        "n_jobs": 1
+      },
+      "threshold": 0.26954524876258495,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.003466332796961069,
+          0.0033661669585853815,
+          0.003321167081594467,
+          0.003296374808996916,
+          0.0032630839850753546
+        ],
+        "median_seconds": 0.003321167081594467,
+        "p95_seconds": 0.0034462996292859314,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.14051049994304776,
+      "validation": {
+        "true_positives": 196,
+        "false_positives": 22,
+        "false_negatives": 24,
+        "precision": 0.8990825688073395,
+        "recall": 0.8909090909090909,
+        "f1": 0.8949771689497716,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.9032258064516129,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 21,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9519898935322776
+      },
+      "model_type": "sklearn_forest",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true,
+        "criterion": "gini",
+        "n_jobs": 1
+      },
+      "threshold": 0.2294045757232059,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.004166083177551627,
+          0.004110167035833001,
+          0.003992500016465783,
+          0.003955167019739747,
+          0.003929666941985488
+        ],
+        "median_seconds": 0.003992500016465783,
+        "p95_seconds": 0.004154899949207902,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "sklearn_forest.pkl"
+    },
+    {
+      "training_seconds": 0.13886920898221433,
+      "validation": {
+        "true_positives": 194,
+        "false_positives": 25,
+        "false_negatives": 26,
+        "precision": 0.8858447488584474,
+        "recall": 0.8818181818181818,
+        "f1": 0.8838268792710706,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8940092165898618,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 23,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9473902265336008
+      },
+      "model_type": "sklearn_forest",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true,
+        "criterion": "gini",
+        "n_jobs": 1
+      },
+      "threshold": 0.2118994387782083,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.004122583894059062,
+          0.003874290967360139,
+          0.00380395888350904,
+          0.003779166843742132,
+          0.004143750062212348
+        ],
+        "median_seconds": 0.003874290967360139,
+        "p95_seconds": 0.0041395168285816904,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      }
+    },
+    {
+      "training_seconds": 0.0,
+      "validation": {
+        "true_positives": 159,
+        "false_positives": 68,
+        "false_negatives": 61,
+        "precision": 0.7004405286343612,
+        "recall": 0.7227272727272728,
+        "f1": 0.7114093959731543,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.7327188940092166,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 58,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.7940179513434172
+      },
+      "model_type": "lexical",
+      "hyperparameters": {},
+      "threshold": 0.3484848484848485,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          3.395881503820419e-05,
+          3.379210829734802e-05,
+          3.341608680784702e-05,
+          3.3207936212420464e-05,
+          3.300001844763756e-05
+        ],
+        "median_seconds": 3.341608680784702e-05,
+        "p95_seconds": 3.3925473690032956e-05,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "lexical.json"
+    }
+  ],
+  "selected": {
+    "custom_forest": {
+      "training_seconds": 0.5611801249906421,
+      "validation": {
+        "true_positives": 191,
+        "false_positives": 18,
+        "false_negatives": 29,
+        "precision": 0.9138755980861244,
+        "recall": 0.8681818181818182,
+        "f1": 0.8904428904428905,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.880184331797235,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 26,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9478790904367068
+      },
+      "model_type": "custom_forest",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true
+      },
+      "threshold": 0.2347583241835786,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.08577445801347494,
+          0.09072266705334187,
+          0.08538400009274483,
+          0.0865407909732312,
+          0.08536324999295175
+        ],
+        "median_seconds": 0.08577445801347494,
+        "p95_seconds": 0.08988629183731973,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "custom_forest.json"
+    },
+    "custom_cart": {
+      "training_seconds": 0.0440692079719156,
+      "validation": {
+        "true_positives": 175,
+        "false_positives": 6,
+        "false_negatives": 45,
+        "precision": 0.9668508287292817,
+        "recall": 0.7954545454545454,
+        "f1": 0.8728179551122195,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.8064516129032258,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 42,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9031797077889087
+      },
+      "model_type": "custom_cart",
+      "hyperparameters": {
+        "max_depth": 8,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "max_features": null
+      },
+      "threshold": 0.43478260869565216,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.002752874977886677,
+          0.002937791869044304,
+          0.002503708004951477,
+          0.0026111670304089785,
+          0.0029963331762701273
+        ],
+        "median_seconds": 0.002752874977886677,
+        "p95_seconds": 0.0029846249148249627,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "custom_cart.json"
+    },
+    "sklearn_forest": {
+      "training_seconds": 0.14051049994304776,
+      "validation": {
+        "true_positives": 196,
+        "false_positives": 22,
+        "false_negatives": 24,
+        "precision": 0.8990825688073395,
+        "recall": 0.8909090909090909,
+        "f1": 0.8949771689497716,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.9032258064516129,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 21,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.9519898935322776
+      },
+      "model_type": "sklearn_forest",
+      "hyperparameters": {
+        "max_depth": 12,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "random_state": 42,
+        "n_estimators": 32,
+        "max_features": "sqrt",
+        "bootstrap": true,
+        "criterion": "gini",
+        "n_jobs": 1
+      },
+      "threshold": 0.2294045757232059,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          0.004166083177551627,
+          0.004110167035833001,
+          0.003992500016465783,
+          0.003955167019739747,
+          0.003929666941985488
+        ],
+        "median_seconds": 0.003992500016465783,
+        "p95_seconds": 0.004154899949207902,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "sklearn_forest.pkl"
+    },
+    "lexical": {
+      "training_seconds": 0.0,
+      "validation": {
+        "true_positives": 159,
+        "false_positives": 68,
+        "false_negatives": 61,
+        "precision": 0.7004405286343612,
+        "recall": 0.7227272727272728,
+        "f1": 0.7114093959731543,
+        "gold_pairs": 220,
+        "retrieved_gold": 217,
+        "candidate_recall": 0.9863636363636363,
+        "conditional_classifier_recall": 0.7327188940092166,
+        "retrieval_missed_gold": 3,
+        "classifier_rejected_gold": 58,
+        "candidate_pairs": 2078,
+        "cartesian_pairs": 47306,
+        "candidate_reduction_ratio": 0.9560732253836722,
+        "candidate_only_average_precision": 0.7940179513434172
+      },
+      "model_type": "lexical",
+      "hyperparameters": {},
+      "threshold": 0.3484848484848485,
+      "training_X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+      "training_y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+      "validation_X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+      "inference": {
+        "samples_seconds": [
+          3.395881503820419e-05,
+          3.379210829734802e-05,
+          3.341608680784702e-05,
+          3.3207936212420464e-05,
+          3.300001844763756e-05
+        ],
+        "median_seconds": 3.341608680784702e-05,
+        "p95_seconds": 3.3925473690032956e-05,
+        "percentile_method": "NumPy linear percentile of actual samples",
+        "rows_per_pass": 2078,
+        "warmups": 1,
+        "passes": 5,
+        "scope": "batch scoring; excludes retrieval/features and loading"
+      },
+      "model_file": "lexical.json"
+    }
+  },
+  "diagnostics": {
+    "comparable_forest_gaps": [
+      {
+        "max_depth": 8,
+        "min_samples_leaf": 2,
+        "sklearn_minus_custom_f1": -0.00799001248439446
+      },
+      {
+        "max_depth": 8,
+        "min_samples_leaf": 5,
+        "sklearn_minus_custom_f1": -0.00905542544886806
+      },
+      {
+        "max_depth": 12,
+        "min_samples_leaf": 2,
+        "sklearn_minus_custom_f1": 0.010816412448589552
+      },
+      {
+        "max_depth": 12,
+        "min_samples_leaf": 5,
+        "sklearn_minus_custom_f1": -0.006616011171819869
+      }
+    ],
+    "forest_below_lexical": false,
+    "investigation_required": false,
+    "training_sampling": "none; all retrieved training pairs used by all learners",
+    "review_status": "no quality-gap trigger"
+  },
+  "schema": "catalogmatch.selection.v1",
+  "provenance": {
+    "raw_sha256": {
+      "Abt.csv": "ed6dbe5ac508e2e27ec7f78948875d4f754b6753674c65ccda3bf903ddaa13ea",
+      "Buy.csv": "37d78c33f85b27e92be1d8ee1b863ba7107dfe369c6ca1dc7961c89b460dd47a",
+      "abt_buy_perfectMapping.csv": "20af553a0846712de11703e2b9569988468d5c639650348dd5a059f4bb861b6a"
+    },
+    "manifest_sha256": "38807dded7aa6c47f4fea09ac0c159538a6ed3d6f205d4edc16be44df8e7fa2a",
+    "prepared_sha256": {
+      "records.jsonl": "57eabaed0c60a54d64c43bac9df952f8707883255550f63772b16cdf60d04fba",
+      "split_memberships.json": "146673f66a642ec2092a942947f5ba36bd839f09a96afaf699da5c5d63dffa56",
+      "audit.json": "5ee447dfa8315b78bdfa11c9624586f841927c2b2f19b3076c60cc4e95824e63"
+    },
+    "selected_sha256": "10c1697d782455cb49b04612a1af1305fcd3c17747df398c5f79b0e772e3bccb",
+    "split_version": "component60_20_20_python_random42_v1",
+    "split_seed": 42
+  },
+  "retrieval_config": {
+    "name": "word10",
+    "word_k": 10,
+    "gram_k": null
+  },
+  "training": {
+    "split": "train",
+    "left_records": 648,
+    "right_records": 655,
+    "candidate_pairs": 6426,
+    "positive_candidates": 630,
+    "negative_candidates": 5796,
+    "gold_pairs": 658,
+    "retrieval_missed_gold": 28,
+    "prevalence": 0.09803921568627451,
+    "feature_names": [
+      "title_token_jaccard",
+      "title_token_containment",
+      "title_trigram_jaccard",
+      "title_edit_similarity",
+      "model_token_jaccard",
+      "model_token_conflict",
+      "model_tokens_both_present",
+      "description_token_jaccard",
+      "descriptions_both_present",
+      "relative_price_difference",
+      "prices_both_present",
+      "numeric_token_jaccard"
+    ],
+    "shape": [
+      6426,
+      12
+    ],
+    "dtype": "float64",
+    "X_sha256": "9fb97bfd53b3f5f8ece40af3d26a89da80d278dae336055951ae1ad9ee1edf2f",
+    "y_sha256": "0b4d4b65b25e00016bdced31ce9c467603f4004950bdfc594b530d856c88f2a6",
+    "pairs_sha256": "63f7e5ef4545f2867c7525fcdaaaf3809b1d011163d16db0272a23f120f0c551",
+    "feature_nbytes": 616896,
+    "candidate_nbytes": 102816,
+    "label_nbytes": 51408,
+    "preparation_seconds": 0.10170762497000396,
+    "index_build_seconds": 0.002674291841685772,
+    "retrieval_seconds": 0.03818975016474724,
+    "cache_used": false,
+    "cache_reason": "[Errno 2] No such file or directory: 'runs/main/features/train.json'",
+    "feature_seconds": 2.8877751249819994,
+    "cache_seconds": 0.0754310842603445
+  },
+  "validation": {
+    "split": "validation",
+    "left_records": 217,
+    "right_records": 218,
+    "candidate_pairs": 2078,
+    "positive_candidates": 217,
+    "negative_candidates": 1861,
+    "gold_pairs": 220,
+    "retrieval_missed_gold": 3,
+    "prevalence": 0.10442733397497594,
+    "feature_names": [
+      "title_token_jaccard",
+      "title_token_containment",
+      "title_trigram_jaccard",
+      "title_edit_similarity",
+      "model_token_jaccard",
+      "model_token_conflict",
+      "model_tokens_both_present",
+      "description_token_jaccard",
+      "descriptions_both_present",
+      "relative_price_difference",
+      "prices_both_present",
+      "numeric_token_jaccard"
+    ],
+    "shape": [
+      2078,
+      12
+    ],
+    "dtype": "float64",
+    "X_sha256": "ac3452624cc5e923f63723d77891d06a3fd7a52fe8ef5eeb51a98701de16faf7",
+    "y_sha256": "60b791485ce868fdb468dd7c719d77fa6b92a35dbe04945f163ee40b817adde5",
+    "pairs_sha256": "d2602ee2f45e200477d6a4c02fc2d599a11e7af2b8f5c4b527d6cccca3534195",
+    "feature_nbytes": 199488,
+    "candidate_nbytes": 33248,
+    "label_nbytes": 16624,
+    "preparation_seconds": 0.07840145798400044,
+    "index_build_seconds": 0.0011699169408529997,
+    "retrieval_seconds": 0.006858082953840494,
+    "cache_used": false,
+    "cache_reason": "[Errno 2] No such file or directory: 'runs/main/features/validation.json'",
+    "feature_seconds": 0.9523105840198696,
+    "cache_seconds": 0.024971500039100647
+  },
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "os": "macOS-26.5.2-arm64-arm-64bit",
+    "cpu": "arm",
+    "logical_cpu_count": 10,
+    "processes": 1
+  },
+  "verification_seconds": 0.03158741584047675,
+  "training_split": "train",
+  "selection_split": "validation",
+  "refit_on_validation": false,
+  "negative_sampling": false
+}

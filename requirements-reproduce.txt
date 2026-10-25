@@ -1,0 +1,13 @@
+# Recorded experiment environment; use CPython 3.12.15 for exact replay.
+# NumPy alone is required by custom inference. The rest support tests/reference evaluation.
+numpy==2.5.4
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+narwhals==2.27.1
+threadpoolctl==3.7.0
+pytest==9.1.1
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0

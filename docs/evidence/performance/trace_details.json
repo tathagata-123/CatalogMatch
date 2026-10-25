@@ -1,0 +1,91 @@
+{
+  "source": "runs/main/product_trace.json",
+  "target_position": 629,
+  "query_terms": [
+    {
+      "term": "20wlwh",
+      "df": 0,
+      "idf": 7.486160788944089,
+      "target_in_posting": false
+    },
+    {
+      "term": "mount",
+      "df": 25,
+      "idf": 4.228064250922607,
+      "target_in_posting": true
+    },
+    {
+      "term": "omnimount",
+      "df": 5,
+      "idf": 5.694401319716034,
+      "target_in_posting": true
+    },
+    {
+      "term": "speaker",
+      "df": 9,
+      "idf": 5.183575695950044,
+      "target_in_posting": true
+    },
+    {
+      "term": "wall",
+      "df": 16,
+      "idf": 4.652947444887873,
+      "target_in_posting": true
+    }
+  ],
+  "query_norm": 12.444465194550146,
+  "target_norm": 14.897493228091097,
+  "top_ten": [
+    {
+      "buy_id": "90106210",
+      "score": 0.5330460029704667
+    },
+    {
+      "buy_id": "90140203",
+      "score": 0.3466900184813965
+    },
+    {
+      "buy_id": "90148258",
+      "score": 0.2995559438246456
+    },
+    {
+      "buy_id": "204222662",
+      "score": 0.2698347177062829
+    },
+    {
+      "buy_id": "201701865",
+      "score": 0.2692141325569802
+    },
+    {
+      "buy_id": "201699873",
+      "score": 0.2472040445747446
+    },
+    {
+      "buy_id": "90120953",
+      "score": 0.24381665603151917
+    },
+    {
+      "buy_id": "90139261",
+      "score": 0.24381665603151917
+    },
+    {
+      "buy_id": "90145561",
+      "score": 0.24381665603151917
+    },
+    {
+      "buy_id": "90145584",
+      "score": 0.24381665603151917
+    }
+  ],
+  "edit_distance": 19,
+  "title_lengths": [
+    35,
+    51
+  ],
+  "trigram_sizes": [
+    29,
+    44
+  ],
+  "trigram_intersection": 24,
+  "trigram_union": 49
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "catalogmatch.selection.v1",
+  "frozen": true,
+  "frozen_at": "2026-10-24T21:22:32.512359+00:00",
+  "files_sha256": {
+    "retrieval.json": "10c1697d782455cb49b04612a1af1305fcd3c17747df398c5f79b0e772e3bccb",
+    "selection.json": "80bc621564cd25ac4b99a1a29894e1cd3ef81c1a0c6cd9155a59624e370eaacf",
+    "validation_scores.npz": "141e43ef1689641d4b5836a8781383a6baa0ba4062b51247a074af830635d7b8",
+    "lexical.json": "440e61581922a2bb1e498e995c7870da4f4e86df5feda2029cc46586f2a01d9d",
+    "validation_errors_lexical.json": "42f6eb9646c9e7cf5fc6eb39dc4c80adcf7675ac39a27a3cb610b77f67045cbd",
+    "custom_cart.json": "b46b38840ce7cd977767934c67fb72ccf848a521b9b35d090d6bb9eaf3b0abab",
+    "validation_errors_custom_cart.json": "3b9acb91cbdf31d83f21ea2be824fa1775ac028b39d2af7d8c2c2d8ed0c9a105",
+    "custom_forest.json": "ad5ef715cbe14006499d5ea0fe4159dffc81f7a466c77f3783ed4d7de713a00a",
+    "validation_errors_custom_forest.json": "cd7bd64407289b6d61476b150dce8dda41628e20538d64fb50473f943a480d44",
+    "sklearn_forest.pkl": "777c97181a25beaba756e70d7b3cc7b0b0998547727e26180762fc9dd339f792",
+    "validation_errors_sklearn_forest.json": "3e382cecb3dd806ce2560fb055a7bb59926562802078544d61cb435220eb3f86"
+  }
+}

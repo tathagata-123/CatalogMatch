@@ -1,0 +1,109 @@
+{
+  "README.md": {
+    "sha256": "362608ccbef4b21c72b11c8f2383388513af17db92a0567bd0ba23d872516104",
+    "kind": "evidence documentation"
+  },
+  "evaluation/benchmark.json": {
+    "sha256": "c1796f62cf5b29e5afaa8eb9816ec0dd9234e192285a0b180541e8ae653113e1",
+    "origin": "runs/main/benchmark.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/frozen.json": {
+    "sha256": "bf8f52024083a736ba5dcf790eb140d6bd72bffdb089a221aca45105246c3d6f",
+    "origin": "runs/main/frozen.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/hardware.json": {
+    "sha256": "367cac925f7bc65f71be3898b6d237de8d4b6b1c7644f72938f6cf43073beeb7",
+    "origin": "runs/main/hardware.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/product_trace.json": {
+    "sha256": "1c1f97d94f321bc8cd3e8237b4fe89549f904e494cbc02cb42dad1e59de59cbb",
+    "origin": "runs/main/product_trace.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/retrieval.json": {
+    "sha256": "10c1697d782455cb49b04612a1af1305fcd3c17747df398c5f79b0e772e3bccb",
+    "origin": "runs/retrieval/selected.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/retrieval_miss_analysis.json": {
+    "sha256": "cf28b9abe05d915a9447d03cd95bbd13359648c6cdcaec86148d089117abd0ce",
+    "origin": "runs/main/retrieval_miss_analysis.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/selection.json": {
+    "sha256": "80bc621564cd25ac4b99a1a29894e1cd3ef81c1a0c6cd9155a59624e370eaacf",
+    "origin": "runs/main/selection.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/test_metrics.json": {
+    "sha256": "80731b6de61ebefc2a4056753a51cd3be9e4a503e69f4829746b860c498af341",
+    "origin": "runs/main/test_metrics.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "evaluation/training_baseline.json": {
+    "sha256": "52f1b886e149e1f03ebeed4ce2748f7028bacc419955078ba2607d06e53e4010",
+    "origin": "runs/train_baseline/baseline.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "performance/benchmark.json": {
+    "sha256": "d921fd936063798c2e69722f816c8361b59bf7a15e66caa05e5290e31004d216",
+    "origin": "runs/m6/replay/benchmark.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "performance/paired_dp.json": {
+    "sha256": "120995f81d22fd582c55dcbe951ed12f33db826c380adf08b12b4c01f98a7ae5",
+    "origin": "runs/m6/paired_dp.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "performance/trace_details.json": {
+    "sha256": "3644134898bc2bbd12bbd2ca1e48b306924ad8bb1d32233dc30530091befd081",
+    "origin": "runs/m6/trace_details.json",
+    "kind": "byte-identical report or experiment input"
+  },
+  "performance/compare_dp.py": {
+    "sha256": "32df54604d23a8bbc9b020092ea57cb9dfe0deba1398639d4e6b74d87ee6e759",
+    "origin": "runs/m6/compare_dp.py",
+    "kind": "byte-identical report or experiment input"
+  },
+  "performance/baseline_source/similarity.py": {
+    "sha256": "18f3dc107121fb07b4c4d9b8cb7756c8850c423b6f70120c163730f4500f6ca8",
+    "origin": "runs/m6/baseline_source/similarity.py",
+    "kind": "byte-identical report or experiment input"
+  },
+  "performance/pytest-final.txt": {
+    "sha256": "7247444be8acfde3d84d421055808bbe53fa61cddc11a9c692318b4fbe6b2bdd",
+    "origin": "runs/m6/pytest-final.txt",
+    "kind": "byte-identical report or experiment input"
+  },
+  "performance/before/profile.json": {
+    "origin": "runs/m6/before/profile.json",
+    "original_sha256": "6c5235d82a71c8dffc73c5024872d7b52d63d12fa1e9541991c5a4c77d0f8f2e",
+    "omitted_fields": [
+      "command"
+    ],
+    "kind": "public extract; measurements unchanged",
+    "sha256": "6872ba610e2b372a0baebcef087bfd6f7fd78900639ca0703d8516be71263064"
+  },
+  "performance/after/profile.json": {
+    "origin": "runs/m6/after/profile.json",
+    "original_sha256": "9133f33280473aa872040004f08f9edc2777519a5a9158a13d4f18115cf19ca0",
+    "omitted_fields": [
+      "command"
+    ],
+    "kind": "public extract; measurements unchanged",
+    "sha256": "0f965acf8205766044bf128c71168d8f428bfd99698ba0a2663df5b142403cb3"
+  },
+  "performance/verification.json": {
+    "origin": "runs/m6/verification.json",
+    "original_sha256": "47558e03396a9355be9770c11a437f62c6d85e5afabc4013b84758fac1b34813",
+    "omitted_fields": [
+      "changed_preexisting_files",
+      "gold_free_cli/cli_arguments"
+    ],
+    "kind": "public extract; measurements unchanged",
+    "sha256": "9a173db309a93f68e63f54d9cbb999ab1c3ff8717e4c37af9af20fe85c73d9ca"
+  }
+}

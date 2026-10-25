@@ -1,0 +1,77 @@
+{
+  "before_source_sha256": "18f3dc107121fb07b4c4d9b8cb7756c8850c423b6f70120c163730f4500f6ca8",
+  "after_source_sha256": "303dd7d5f0ac9b12560466fb78816774306a312cca03f2b85040a7438737d93a",
+  "method": "one uncached warmup per implementation; five paired passes with alternating implementation order; same prepared records, ordered pairs, model, threshold; equality checks outside timing",
+  "partitions": {
+    "train": {
+      "pairs": 6426,
+      "shape": [
+        6426,
+        12
+      ],
+      "timings": {
+        "before": {
+          "samples_seconds": [
+            1.4643232920207083,
+            1.466883375076577,
+            1.4620344578288496,
+            1.462888249894604,
+            1.4644434999208897
+          ],
+          "median_seconds": 1.4643232920207083,
+          "p95_seconds": 1.4663954000454396,
+          "percentile_method": "NumPy linear percentile of actual samples"
+        },
+        "after": {
+          "samples_seconds": [
+            0.8426427501253784,
+            0.8428297080099583,
+            0.8445765830110759,
+            0.8436704580672085,
+            0.8447651250753552
+          ],
+          "median_seconds": 0.8436704580672085,
+          "p95_seconds": 0.8447274166624993,
+          "percentile_method": "NumPy linear percentile of actual samples"
+        }
+      },
+      "speedup": 1.7356578958274456,
+      "exact_candidates_features_scores_decisions_and_accepted_pairs": true
+    },
+    "validation": {
+      "pairs": 2078,
+      "shape": [
+        2078,
+        12
+      ],
+      "timings": {
+        "before": {
+          "samples_seconds": [
+            0.4929120000451803,
+            0.49315900006331503,
+            0.5241862079128623,
+            0.4919719591271132,
+            0.4908470408990979
+          ],
+          "median_seconds": 0.4929120000451803,
+          "p95_seconds": 0.5179807663429529,
+          "percentile_method": "NumPy linear percentile of actual samples"
+        },
+        "after": {
+          "samples_seconds": [
+            0.28301208303309977,
+            0.28265170799568295,
+            0.28223983384668827,
+            0.28256316599436104,
+            0.28810191596858203
+          ],
+          "median_seconds": 0.28265170799568295,
+          "p95_seconds": 0.28708394938148557,
+          "percentile_method": "NumPy linear percentile of actual samples"
+        }
+      },
+      "speedup": 1.743884739068015,
+      "exact_candidates_features_scores_decisions_and_accepted_pairs": true
+    }
+  }
+}

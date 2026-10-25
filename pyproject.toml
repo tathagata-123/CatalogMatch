@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catalogmatch"
+version = "0.1.0"
+description = "Student-friendly product entity matching, starting with Abt–Buy"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "scikit-learn>=1.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["real_data: audit official CSV files when locally available"]

@@ -1,0 +1,6 @@
+{
+  "cpu_model": "Apple M4",
+  "logical_cpu_count": 10,
+  "cpu_model_command": "sysctl -n machdep.cpu.brand_string",
+  "note": "Read-only system query required sandbox escalation; frozen selection records architecture fallback arm."
+}

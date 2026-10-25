@@ -1,0 +1,119 @@
+{
+  "baseline_tests": {
+    "passed": 767,
+    "seconds": 8.62,
+    "skipped": 0
+  },
+  "partitions": {
+    "train": {
+      "pairs": 6426,
+      "exact_candidates_order_and_features": true
+    },
+    "validation": {
+      "pairs": 2078,
+      "exact_candidates_order_and_features": true,
+      "models": {
+        "lexical": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            159,
+            68,
+            61
+          ],
+          "candidate_only_ap": 0.7940179513434168
+        },
+        "custom_cart": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            175,
+            6,
+            45
+          ],
+          "candidate_only_ap": 0.9031797077889085
+        },
+        "custom_forest": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            191,
+            18,
+            29
+          ],
+          "candidate_only_ap": 0.9478790904367066
+        },
+        "sklearn_forest": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            196,
+            22,
+            24
+          ],
+          "candidate_only_ap": 0.9519898935322775
+        }
+      }
+    },
+    "test": {
+      "pairs": 2053,
+      "exact_candidates_order_and_features": true,
+      "models": {
+        "lexical": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            157,
+            74,
+            62
+          ],
+          "candidate_only_ap": 0.7129050678583846
+        },
+        "custom_cart": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            172,
+            15,
+            47
+          ],
+          "candidate_only_ap": 0.8525066371896395
+        },
+        "custom_forest": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            194,
+            29,
+            25
+          ],
+          "candidate_only_ap": 0.9389957264496217
+        },
+        "sklearn_forest": {
+          "exact_scores_and_final_pair_set": true,
+          "independent_counts": [
+            193,
+            28,
+            26
+          ],
+          "candidate_only_ap": 0.9392735526786977
+        }
+      }
+    }
+  },
+  "invalidated_evaluations": [],
+  "protected_artifact_count": 50,
+  "original_artifacts_byte_identical": true,
+  "prepared_files_byte_identical": true,
+  "all_seven_validation_retrieval_nontiming_metrics_identical": true,
+  "full_prepare_including_write_seconds": 0.08630120800808072,
+  "gold_free_cli": {
+    "fresh_process": true,
+    "sklearn_scipy_imports_forbidden": true,
+    "gold_functions_forbidden": true,
+    "no_default_data_directory": true,
+    "exact_original_matches": true,
+    "accepted_matches": 2
+  },
+  "_publication": {
+    "origin": "runs/m6/verification.json",
+    "original_sha256": "47558e03396a9355be9770c11a437f62c6d85e5afabc4013b84758fac1b34813",
+    "omitted_fields": [
+      "changed_preexisting_files",
+      "gold_free_cli/cli_arguments"
+    ]
+  }
+}
